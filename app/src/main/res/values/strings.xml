@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NAZWA_APLIKACJI</string>
+    <string name="hello">Create by Tyson</string>
+    <string name="title_activity_hello">Hello</string>
+    <string name="water">WATER +1/click COST:1</string>
+    <string name="focusing">FOCUSING +0.2/sec COST:1</string>
+
+</resources>

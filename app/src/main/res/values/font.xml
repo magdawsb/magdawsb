@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="huge_font">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">#c11313</item>
+    </style>
+    <style name="small_font">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#101010</item>
+    </style>
+</resources>

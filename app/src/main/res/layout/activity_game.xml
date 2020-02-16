@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.karolinamaison.nazwa_aplikacji.GameActivity">
+  <!--  <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time: 10"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        style="@style/huge_font"/>
+
+    <TextView
+        android:id="@+id/tv_clicks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clicks: 0"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/tv_bestscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/bestscore"
+        android:layout_above="@+id/tv_clicks"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/b_click"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="CLICK"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_clicks" />
+
+    <Button
+        android:id="@+id/b_start"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+        -->
+
+  <ImageView
+      android:id="@+id/tyson_image"
+      android:layout_width="wrap_content"
+      android:layout_height="100dp"
+      android:layout_centerHorizontal="true"
+      android:layout_centerVertical="true"
+      android:cropToPadding="false"
+      app:srcCompat="@drawable/tyson" />
+
+  <TextView
+      android:id="@+id/score"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/tyson_image"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="20dp"
+      android:layout_toEndOf="@+id/info"
+      android:text="" />
+  <Button
+      android:id="@+id/b_focusing"
+      android:layout_width="150dp"
+      android:layout_height="55dp"
+      android:text="@string/focusing"
+      android:textSize="10dp"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true" />] />
+
+  <Button
+      android:id="@+id/b_water"
+      android:textSize="10dp"
+      android:layout_width="150dp"
+      android:layout_height="55dp"
+      android:text="@string/water"
+      android:layout_above="@+id/b_focusing"
+      android:layout_alignStart="@+id/b_focusing" />]/>
+
+  <TextView
+      android:id="@+id/info"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:text="" />
+
+
+</RelativeLayout>
